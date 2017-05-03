@@ -150,8 +150,25 @@ video {
 	max-width: 100%;
 }
 
-/* Media query for tablet viewport targets screen size with a minimum width of 660px */
+/*Style for for copyright div */
+#copyright {
+	float: left;
+	margin-top: 2em;
+	width: 80%;
+}
 
+/* Style rule for social div*/
+#social {
+	float: right;
+	width: 20%;
+}
+
+/*Style rule for social media icons*/
+#social img {
+	padding: 0.5em;
+}
+
+/* Media query for tablet viewport targets screen size with a minimum width of 660px */
 @media only screen and (min-width: 660px) {
 	
 /* Style specifies a horizontal display for navigation links */
@@ -342,6 +359,11 @@ video {
 		margin-left: 12em;
 	}
 	
+/*Style rule for form unordered list element */
+	form ul {
+		margin-left: 2em;
+	}
+	
 }
 
 /* Media query for desktop viewport targets screens with a minimum width of 830px */ 
@@ -441,6 +463,7 @@ video {
 		background-color: #2a2a2a;
 		margin-top: -0.2em;
 		padding: 2em;
+		overflow: auto;
 	}
 	
 	/* Style specifies color */
